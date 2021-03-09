@@ -15,12 +15,26 @@ h2, h3 {
   padding: 10px;
 }
 
+p {
+  background-color: gray;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 36px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
 button {
   cursor: pointer;
   font-size: 30px;
-  padding: 15px;
+  /* padding: 15px; */
   height: 65px;
   width: 65px;
+  outline: none;
+  border-radius: 0;
 }
 
 .clear-btn {

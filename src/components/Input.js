@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoIosBackspace } from 'react-icons/io';
 
 
 const Input  = () => {
@@ -6,8 +7,8 @@ const Input  = () => {
 
     return (
         <div className="input-view">
-            <p className="results-input"></p>
-            <button></button>
+            <p className="results-input">asdfdsf</p>
+            <button> <IoIosBackspace /> </button>
         </div>
     );
 };
