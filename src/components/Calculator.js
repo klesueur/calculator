@@ -15,11 +15,15 @@ const Calculator = () => {
     };
 
     const backspace = () => {
-        setInput(input.slice(0, -1));
+        setInput(input.slice(0, -1))
     };
 
     const reset = () => {
+        setInput('')
+    };
 
+    const onClick = (button) => {
+        
     };
 
     return(
